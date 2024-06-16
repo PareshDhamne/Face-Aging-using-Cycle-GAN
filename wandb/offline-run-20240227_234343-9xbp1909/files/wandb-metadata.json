@@ -1,0 +1,45 @@
+{
+    "os": "Windows-10-10.0.22621-SP0",
+    "python": "3.9.7",
+    "heartbeatAt": "2024-02-27T18:13:43.405104",
+    "startedAt": "2024-02-27T18:13:43.271525",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "D:\\FaceAgingCAAE\\FaceAgingFF\\Fast-AgingGAN\\main.py",
+    "codePathLocal": "main.py",
+    "codePath": "main.py",
+    "git": {
+        "remote": "https://github.com/YashHalwai/Face-Aging-CAAE-GAN.git",
+        "commit": "18b3f2a0edb65f655593f294a4b548d633c11cf1"
+    },
+    "email": "halwaiyash45@gmail.com",
+    "root": "D:/FaceAgingCAAE/FaceAgingFF/Fast-AgingGAN",
+    "host": "Yash-Halwai",
+    "username": "halwa",
+    "executable": "C:\\Users\\halwa\\anaconda3\\python.exe",
+    "cpu_count": 2,
+    "cpu_count_logical": 4,
+    "cpu_freq": {
+        "current": 2901.0,
+        "min": 0.0,
+        "max": 2901.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 1100.0,
+            "min": 0.0,
+            "max": 2901.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 274.31737899780273,
+            "used": 178.16378784179688
+        }
+    },
+    "memory": {
+        "total": 7.651031494140625
+    }
+}

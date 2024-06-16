@@ -1,0 +1,55 @@
+# # Data configs
+# domainA_dir: 'D:/FaceAgingCAAE/FaceAgingFF/Fast-AgingGAN/data_img/trainA'
+# domainB_dir: 'D:/FaceAgingCAAE/FaceAgingFF/Fast-AgingGAN/data_img/trainB'
+
+# # Network Configs
+# ngf: 32
+# ndf: 32
+# n_blocks: 9
+
+# # Loss configs:
+# adv_weight: 2
+# cycle_weight: 10
+# identity_weight: 7
+
+# # Optimizer configs:
+# lr: 0.0001
+# weight_decay: 0.0001
+
+# # Training configs:
+# img_size: 256
+# batch_size: 3
+# num_workers: 4
+# epochs: 100
+# augment_rotation: 80
+# gpus:
+#   - 1
+
+
+# Data configurations
+domainA_dir: 'D:/FaceAgingCAAE/FaceAgingFF/Fast-AgingGAN/data_img/trainA'  # Directory containing images of domain A (e.g., younger faces)
+domainB_dir: 'D:/FaceAgingCAAE/FaceAgingFF/Fast-AgingGAN/data_img/trainB'  # Directory containing images of domain B (e.g., older faces)
+
+# Network configurations
+ngf: 32  # Number of generator features
+ndf: 32 # Number of discriminator features
+n_residual_blocks: 9  # Number of residual blocks in the generator
+
+# Loss configurations
+adv_weight: 2  # Weight of the adversarial loss
+cycle_weight: 10  # Weight of the cycle consistency loss
+identity_weight: 7  # Weight of the identity loss
+
+# Optimizer configurations
+lr: 0.0001  # Learning rate for the optimizer
+weight_decay: 0.0001  # Weight decay for the optimizer
+
+# Training configurations
+img_size: 256  # Size of input images (assumed square images)
+batch_size: 3  # Batch size for training
+num_workers: 4  # Number of worker processes for data loading
+epochs: 2  # Number of training epochs
+augment_rotation: 80  # Maximum rotation angle for data augmentation
+gpus:
+  - 1  # List of GPU indices to use for training (e.g., [0] for the first GPU)
+ 
