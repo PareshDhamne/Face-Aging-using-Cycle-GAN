@@ -79,7 +79,7 @@ To apply the pretrained model to your images, follow these steps:
 
 -  gan_module.py
 
-Defines the AgingGAN model structure, including Generator and Discriminator networks. Implements adversarial and cycle consistency losses to train the GAN effectively. Supports forward and reverse aging transformations.
+      Defines the AgingGAN model structure, including Generator and Discriminator networks. Implements adversarial and cycle consistency losses to train the GAN effectively. Supports forward and reverse aging   transformations.
 
 -  models.py
 
