@@ -8,6 +8,6 @@ This project leverages Generative Adversarial Networks (GANs) to create realisti
 
 - The primary goal is to realistically simulate facial aging while preserving individual characteristics:
 
--- Maximize: The realism and accuracy of aging simulations to reflect true facial changes over time.
+  - Maximize: The realism and accuracy of aging simulations to reflect true facial changes over time.
 
--- Minimize: Distortion or loss of facial features, ensuring each transformation remains true to the person’s identity.
+  - Minimize: Distortion or loss of facial features, ensuring each transformation remains true to the person’s identity.
