@@ -57,7 +57,7 @@ To apply the pretrained model to your images, follow these steps:
 
 **1. Clone the repository:**
    ```
-   git clone <repository-url>
+   git clone https://github.com/PareshDhamne/Face-Aging-using-Cycle-GAN.git
    ```
 **2. Install dependencies:**
    ```
