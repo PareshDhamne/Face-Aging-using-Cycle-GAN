@@ -1,20 +1,20 @@
 # Face-Aging-using-Cycle-GAN
 
-# Project Overview
+## Project Overview
 
 This project leverages Generative Adversarial Networks (GANs) to create realistic simulations of human facial aging. By transforming input images, it can depict age progression while retaining the subject’s unique features. This technology is valuable in fields like entertainment, forensic analysis, cosmetic research, and scientific studies.
 
-# Business Objective
+## Business Objective
 
-- The primary goal is to realistically simulate facial aging while preserving individual characteristics:
+  - The primary goal is to realistically simulate facial aging while preserving individual characteristics:
 
   - Maximize: The realism and accuracy of aging simulations to reflect true facial changes over time.
 
   - Minimize: Distortion or loss of facial features, ensuring each transformation remains true to the person’s identity.
  
-# Technologies Used
+## Technologies Used
 
-- This project utilizes a combination of machine learning and computer vision libraries to achieve its objectives:
+  - This project utilizes a combination of machine learning and computer vision libraries to achieve its objectives:
 
   -  Python: Core programming language for flexibility and extensive ML ecosystem.
 
@@ -28,7 +28,7 @@ This project leverages Generative Adversarial Networks (GANs) to create realisti
 
   -  Pillow: Image handling and manipulation.
 
-# Impact of the Project
+## Impact of the Project
 
 This project can:
 
@@ -40,7 +40,7 @@ This project can:
 
   -  Scientific Research: Contribute to understanding facial aging patterns and genetics.
 
-# Features
+## Features
 
 - Realistic Aging Simulation: Generates age-progressed or rejuvenated facial images while preserving individual identity.
 
