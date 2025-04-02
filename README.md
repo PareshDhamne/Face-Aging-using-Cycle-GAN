@@ -2,7 +2,7 @@
 
 ## Project Overview
 
-This project leverages Generative Adversarial Networks (GANs) to create realistic simulations of human facial aging. By transforming input images, it can depict age progression while retaining the subject’s unique features. This technology is valuable in fields like entertainment, forensic analysis, cosmetic research, and scientific studies.
+  This project leverages Generative Adversarial Networks (GANs) to create realistic simulations of human facial aging. By transforming input images, it can depict age progression while retaining the subject’s unique features. This technology is valuable in fields like entertainment, forensic analysis, cosmetic research, and scientific studies.
 
 ## Business Objective
 
