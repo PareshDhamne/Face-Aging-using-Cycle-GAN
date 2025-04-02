@@ -75,3 +75,28 @@ To apply the pretrained model to your images, follow these steps:
    ```
    python infer.py
    ```
+## File Descriptions
+
+-  gan_module.py
+
+Defines the AgingGAN model structure, including Generator and Discriminator networks. Implements adversarial and cycle consistency losses to train the GAN effectively. Supports forward and reverse aging transformations.
+
+-  models.py
+
+Contains neural network architectures for the Generator and Discriminator. The Generator leverages residual blocks to capture fine details, while the Discriminator evaluates image realism.
+
+-  timing.py
+
+Measures the average time taken for model inference. Conducts 50 iterations with the first 10 as a warm-up to ensure accurate timing results.
+
+-  weights_main.py
+
+Loads configurations, sets up the AgingGAN, trains the model, and saves weights. Generates model architecture diagrams using torchviz.
+
+-  infer.py
+
+Performs aging transformations on input images using trained weights. Supports both aging and rejuvenation scenarios.
+
+-  dataset.py
+
+Handles data loading and preprocessing using the CACD dataset. Supports augmentation techniques and normalization to improve model robustness.
