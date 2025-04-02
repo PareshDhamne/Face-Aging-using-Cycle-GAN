@@ -55,23 +55,23 @@ This project can:
 ## Pretrained Model Inference
 To apply the pretrained model to your images, follow these steps:
 
-1. Clone the repository:
+**1. Clone the repository:**
    ```
    git clone <repository-url>
    ```
-2. Install dependencies:
+**2. Install dependencies:**
    ```
    pip install -r requirements.txt
    ```
-3. Train the AgingGAN model using:
+**3. Train the AgingGAN model using:**
    ```
    python weights_main.py --config configs/aging_gan.yaml --weights_dir saved_weights
    ```
-5. Measure performance with:
+**5. Measure performance with:**
    ```
    python timing.py
    ```
-7. Run inference on new images using:
+**6. Run inference on new images using:**
    ```
    python infer.py
    ```
